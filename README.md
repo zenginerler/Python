@@ -1,4 +1,3 @@
-# Misc
-Python
+# Intro to Python Programming
 
-github tutorial for my friends
+Basic python tutorial for my mentees
