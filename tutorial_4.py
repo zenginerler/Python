@@ -1,27 +1,32 @@
 """
 ================================ LECTURE NOTES =================================
-INDEXING
+LIST INDEXING
 
-welcome
-0123456
+["w", "e", "l", "c", "o", "m", "e"]
+  0    1    2    3    4    5    6
 
-word1 = "welcome"
+lst1 = ["w","e","l","c","o","m","e"]
 
-print(word1)
+print(lst1)
 print()
-print(word1[0])
+print(lst1[0])
 
 -------------------------------------------------------------------------------
 Built-in Funtions:
-
-max( )
-min( )
-len( )
 
 print( )  : prints the given value to the shell/console/output_screen
 
 int( )    : Converts the given value into an integer
 str( )    : Converts the given value into a  string
+
+-------------------------------------------------------------------------------
+LOGIC OPERATORS:
+
+equal to                    : ==
+smaller than                : < 
+smaller than or equal to    : <=
+greater than                : >
+greater than or equal to    : >=
 
 -------------------------------------------------------------------------------
 Conditional Statements
@@ -51,6 +56,17 @@ def functionName():
 
 functionName()
 
+-------------------------------------------------------------------------------
+for i in range(10):
+    print("I am a patato!")
+
+for i in [0,1,2,3,4,5,6,7,8,9]:
+    print("I am a patato!")
+
+while True:
+    print("I am a tomato!")
+
+
 """
 
 def calculator():
@@ -61,16 +77,20 @@ def calculator():
     num2 = int(input("Enter another number: "))
 
     if (operator == "+"):
-        print(num1 + num2)
+        print("Result:", num1 + num2)
 
     elif (operator == "-"):
-        print(num1 - num2)
+        print("Result:", num1 - num2)
 
     elif (operator == "*"):
-        print(num1 * num2)
+        print("Result:", num1 * num2)
 
     elif (operator == "/"):
-        print(num1 / num2)
+        print("Result:", num1 / num2)
 
     else:
         print("Invalid operator!")
+    
+
+print()
+calculator()

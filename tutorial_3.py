@@ -73,7 +73,7 @@ def calculator():
 
     # 1 - Obtain two integers from the user; hint --> input()
 
-    # 2 - Obtain an math operator from the user; hint --> ("+", "-", "*", "/")
+    # 2 - Obtain a math operator from the user; hint --> ("+", "-", "*", "/")
 
     # 3 - Use conditional statements detect the math operator,
     #     then apply the math and print the result
