@@ -57,11 +57,17 @@ def functionName():
 functionName()
 
 -------------------------------------------------------------------------------
-for i in range(10):
-    print("I am a patato!")
+# LOOP EXAMPLES:
 
 for i in [0,1,2,3,4,5,6,7,8,9]:
     print("I am a patato!")
+
+for i in range(10):
+    print("I am a patato!")
+
+for i in range(10):
+    print(i)
+
 
 while True:
     print("I am a tomato!")
@@ -69,11 +75,13 @@ while True:
 
 """
 
+
+# completed version of calculator funtion:
 def calculator():
+    num1 = int(input("Enter a number: "))
 
     operator = input("Enter a math operator: ")
 
-    num1 = int(input("Enter a number: "))
     num2 = int(input("Enter another number: "))
 
     if (operator == "+"):
@@ -90,7 +98,10 @@ def calculator():
 
     else:
         print("Invalid operator!")
-    
 
-print()
+    print()
+
+
+# You need to specifically call your functions 
+# if you want to execute what you defined in them
 calculator()
